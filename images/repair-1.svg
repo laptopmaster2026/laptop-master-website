@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+<rect width="800" height="600" rx="30" fill="#15181d"/>
+<rect x="90" y="100" width="620" height="300" rx="18" fill="#272c34" stroke="#555c66" stroke-width="4"/>
+<rect x="115" y="125" width="570" height="250" rx="10" fill="#101216"/>
+<circle cx="400" cy="250" r="70" fill="#d71920" opacity=".18"/>
+<text x="400" y="260" text-anchor="middle" fill="#fff" font-family="Arial" font-size="30" font-weight="800">LAPTOP REPAIR</text>
+<path d="M70 425h660l-60 65H130z" fill="#767d86"/>
+<text x="400" y="555" text-anchor="middle" fill="#ff5960" font-family="Arial" font-size="20" font-weight="700">SAMPLE • REPLACE LATER</text>
+</svg>
