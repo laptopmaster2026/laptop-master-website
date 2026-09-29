@@ -1,0 +1,27 @@
+LAPTOP MASTER V2.3
+
+Focus: Trust + SEO + customer conversion improvements
+
+1. Google Reviews section
+   - Replaced the V2.2 placeholder review message.
+   - Added Google Reviews and Google Maps buttons.
+   - No review count or rating is hardcoded without verified Google data.
+
+2. Service Areas
+   - Added Sholinganallur, OMR, Perungudi, Thoraipakkam, Karapakkam,
+     Navalur, Siruseri, Medavakkam, ECR and Chennai.
+
+3. FAQ
+   - Added six expandable customer questions.
+   - Added matching FAQPage JSON-LD structured data.
+
+4. SEO / sharing
+   - Added Open Graph image and Twitter card metadata.
+   - Added hero image preload.
+   - Improved hero image dimensions and loading priority.
+
+5. Design / functionality
+   - Existing V2.2 layout and JavaScript behavior preserved.
+   - Responsive desktop/tablet/mobile layout preserved.
+   - Real V2.2 business photos preserved.
+   - No mobile-service content added.
