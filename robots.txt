@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://laptopmasterservice.com/sitemap.xml

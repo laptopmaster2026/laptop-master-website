@@ -1,0 +1,22 @@
+/*
+  LAPTOP MASTER - Cloudflare Pages headers
+*/
+/*
+  Static assets can be cached safely because filenames are stable in this project.
+*/
+/images/*
+  Cache-Control: public, max-age=2592000, immutable
+
+*.css
+  Cache-Control: public, max-age=604800
+
+*.js
+  Cache-Control: public, max-age=604800
+
+/*
+  Basic browser hardening. These do not require any third-party service.
+*/
+/
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
