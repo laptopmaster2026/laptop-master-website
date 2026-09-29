@@ -2476,3 +2476,92 @@ button:focus-visible {
     font-size: 21px;
   }
 }
+
+/* =========================================================
+   V2.4 ACCESSIBILITY + MOBILE CONTACT BAR
+   ========================================================= */
+
+.skip-link {
+  position: fixed;
+  left: 12px;
+  top: -60px;
+  z-index: 9999;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--dark, #111);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(0,0,0,.18);
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+#main-content:focus {
+  outline: none;
+}
+
+.mobile-cta {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding-bottom: 70px;
+  }
+
+  .mobile-cta {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3000;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    padding: 8px;
+    background: rgba(255,255,255,.96);
+    border-top: 1px solid rgba(0,0,0,.10);
+    box-shadow: 0 -8px 24px rgba(0,0,0,.10);
+    backdrop-filter: blur(10px);
+  }
+
+  .mobile-cta a {
+    min-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 5px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .mobile-cta-call {
+    background: #d71920;
+  }
+
+  .mobile-cta-whatsapp {
+    background: #168a4a;
+  }
+
+  .mobile-cta-contact {
+    background: #20242b;
+  }
+
+  .mobile-cta a:active {
+    transform: translateY(1px);
+  }
+}
+
+@media (max-width: 700px) {
+  .floating-whatsapp {
+    bottom: 82px;
+  }
+}

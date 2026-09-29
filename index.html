@@ -19,6 +19,8 @@
   >
 
   <meta name="robots" content="index, follow">
+  <meta name="author" content="LAPTOP MASTER">
+  <meta name="format-detection" content="telephone=yes">
 
   <link rel="canonical" href="https://laptopmasterservice.com/">
 
@@ -113,6 +115,30 @@
   </script>
 
 
+  <!-- Website Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "LAPTOP MASTER",
+    "url": "https://laptopmasterservice.com/",
+    "description": "Laptop repair and service center in Sholinganallur, OMR, Chennai."
+  }
+  </script>
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://laptopmasterservice.com/"},
+      {"@type":"ListItem","position":2,"name":"Laptop Services","item":"https://laptopmasterservice.com/#services"},
+      {"@type":"ListItem","position":3,"name":"Contact","item":"https://laptopmasterservice.com/#contact"}
+    ]
+  }
+  </script>
+
   <!-- FAQ Schema -->
   <script type="application/ld+json">
   {
@@ -132,6 +158,8 @@
 </head>
 
 <body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <!-- =========================
        HEADER
@@ -188,7 +216,7 @@
   </header>
 
 
-  <main>
+  <main id="main-content" tabindex="-1">
 
     <!-- =========================
          HERO
@@ -291,6 +319,7 @@
             width="1200"
             height="900"
             fetchpriority="high"
+            decoding="async"
           >
 
           <div class="floating-card">
@@ -941,18 +970,21 @@
             src="images/gallery-laptop-repair.webp"
             alt="Laptop repair work at LAPTOP MASTER in Sholinganallur"
             loading="lazy"
+            decoding="async"
           >
 
           <img
             src="images/gallery-motherboard.webp"
             alt="Laptop motherboard repair service at LAPTOP MASTER"
             loading="lazy"
+            decoding="async"
           >
 
           <img
             src="images/gallery-service-desk.webp"
             alt="LAPTOP MASTER service center in Sholinganallur, Chennai"
             loading="lazy"
+            decoding="async"
           >
 
         </div>
@@ -1382,6 +1414,13 @@
 
   </footer>
 
+
+  <!-- Mobile conversion bar -->
+  <div class="mobile-cta" aria-label="Quick contact options">
+    <a href="tel:+916382022463" class="mobile-cta-call">📞 <span>Call</span></a>
+    <a href="https://wa.me/916382022463?text=Hi%20LAPTOP%20MASTER%2C%20I%20need%20laptop%20service." target="_blank" rel="noopener noreferrer" class="mobile-cta-whatsapp">💬 <span>WhatsApp</span></a>
+    <a href="#contact" class="mobile-cta-contact">📍 <span>Visit / Directions</span></a>
+  </div>
 
   <!-- Floating WhatsApp -->
 

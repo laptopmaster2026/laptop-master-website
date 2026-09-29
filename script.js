@@ -1,6 +1,6 @@
 ```javascript
 /* =========================================================
-   LAPTOP MASTER V2.3
+   LAPTOP MASTER V2.4
    Main JavaScript
    ========================================================= */
 
@@ -387,11 +387,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   /* =======================================================
+     MAP / DIRECTIONS CLICK TRACKING
+     ======================================================= */
+
+  const mapLinks = document.querySelectorAll(
+    'a[href*="google.com/maps"]'
+  );
+
+  mapLinks.forEach((link) => {
+
+    link.addEventListener("click", () => {
+
+      if (typeof window.gtag === "function") {
+
+        window.gtag(
+          "event",
+          "map_click",
+          {
+            event_category: "contact",
+            event_label: "Google Maps"
+          }
+        );
+
+      }
+
+    });
+
+  });
+
+  /* =======================================================
      CONSOLE MESSAGE
      ======================================================= */
 
   console.log(
-    "LAPTOP MASTER V2.3 loaded successfully."
+    "LAPTOP MASTER V2.4 loaded successfully."
   );
 
 });

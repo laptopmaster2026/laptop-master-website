@@ -1,4 +1,4 @@
-# LAPTOP MASTER V2.3
+# LAPTOP MASTER V2.4
 
 Professional static website for LAPTOP MASTER.
 
@@ -7,13 +7,11 @@ Location: No 17 Annai Indhira Gandhi Street, Sholinganallur, Chennai 600119
 Phone: 6382022463
 Hours: 9:00 AM - 9:00 PM
 
-## V2.3 updates
-- Real LAPTOP MASTER photos retained from V2.2 and optimized for web.
-- Google Reviews section upgraded with direct Google Maps/reviews access.
-- Added Service Areas section for Sholinganallur, OMR and nearby Chennai areas.
-- Added FAQ section with expandable answers.
-- Added FAQ structured data (JSON-LD).
-- Added Open Graph and Twitter preview metadata.
-- Added hero-image preload for faster initial loading.
-- Existing responsive design, navigation and JavaScript functionality preserved.
+## V2.4 updates
+- Added mobile Call / WhatsApp / Visit-Directions conversion bar.
+- Added accessibility skip link and main-content focus target.
+- Added WebSite and BreadcrumbList structured data.
+- Added async image decoding for better rendering behavior.
+- Added optional Google Maps click tracking when Google Analytics is connected.
+- Preserved V2.3 real photos, reviews, service areas, FAQ and responsive design.
 - No mobile-service content added.
