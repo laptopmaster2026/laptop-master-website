@@ -1,4 +1,4 @@
-# LAPTOP MASTER - V2.6 (Customer Reviews)
+# LAPTOP MASTER - V2.7 (SEO + service pages)
 
 Static website for LAPTOP MASTER, Sholinganallur, Chennai. Hosted on GitHub + Cloudflare Pages.
 
@@ -29,3 +29,13 @@ Keep original large photos on your own computer, not in this repo.
 ## V2.6 updates
 - Added 3 real Google review cards (text copied exactly from the Google listing, no dates or invented ratings).
 - Added "Write a Review" button linking to the Google review page.
+
+## V2.7 updates
+- New service pages (each with own title, description, canonical, FAQ and structured data):
+  - /laptop-repair-sholinganallur/
+  - /laptop-motherboard-chip-level-repair/
+  - /laptop-not-turning-on-no-display-repair/
+  - /laptop-pickup-delivery-omr/
+- Homepage: shorter title, new meta description, removed unused keywords tag, links to the new pages.
+- sitemap.xml now lists all 5 pages.
+- Not yet added: geo coordinates (need exact shop location from Google Maps).
