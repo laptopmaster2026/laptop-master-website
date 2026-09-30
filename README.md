@@ -1,4 +1,4 @@
-# LAPTOP MASTER - V2.8.1 (Real photos + logo)
+# LAPTOP MASTER - V2.8.2 (Logo size fix)
 
 Static website for LAPTOP MASTER, Sholinganallur, Chennai. Hosted on GitHub + Cloudflare Pages.
 
@@ -58,3 +58,7 @@ Keep original large photos on your own computer, not in this repo.
 - Real photos and your own LAPTOP MASTER logo and designed banner now used across the site.
 - Illustrations removed. Homepage gallery = 6 real workbench photos.
 - Header shows the logo image. New share card built from real photo + logo.
+
+## V2.8.2 updates
+- Header logo size is now fixed inside the HTML, so it stays small even if the browser has an old style.css cached.
+- style.css and script.js links carry a version (?v=2.8.2) and _headers no longer caches them for a day.

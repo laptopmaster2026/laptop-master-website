@@ -2642,8 +2642,8 @@ button:focus-visible {
 .faq-left .faq-grid { max-width: none; margin-left: 0; margin-right: 0; }
 
 /* V2.9 prep - real photos + logo */
-.brand-logo { height: 34px; width: auto; display: block; }
-@media (max-width: 600px) { .brand-logo { height: 28px; } }
+.brand-logo { height: 34px; width: auto; max-height: 34px; display: block; }
+@media (max-width: 600px) { .brand-logo { height: 26px !important; max-height: 26px; } }
 .gallery-grid { grid-template-columns: repeat(3, 1fr); }
 @media (max-width: 900px) { .gallery-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 600px) { .gallery-grid { grid-template-columns: 1fr; } }
