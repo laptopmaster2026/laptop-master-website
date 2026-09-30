@@ -1,5 +1,12 @@
 # LAPTOP MASTER - Cloudflare Pages headers
 
+# Keep the temporary *.pages.dev addresses out of Google.
+# Only the real domain (once connected) should be indexed.
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex
+
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin

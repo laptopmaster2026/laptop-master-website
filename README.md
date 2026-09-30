@@ -1,4 +1,4 @@
-# LAPTOP MASTER - V2.7 (SEO + service pages)
+# LAPTOP MASTER - V2.8 (Illustrations, alignment, go-live prep)
 
 Static website for LAPTOP MASTER, Sholinganallur, Chennai. Hosted on GitHub + Cloudflare Pages.
 
@@ -39,3 +39,17 @@ Keep original large photos on your own computer, not in this repo.
 - Homepage: shorter title, new meta description, removed unused keywords tag, links to the new pages.
 - sitemap.xml now lists all 5 pages.
 - Not yet added: geo coordinates (need exact shop location from Google Maps).
+
+## V2.8 updates
+- Sub-page alignment fixed (text, steps and FAQ now share the same left edge).
+- Original brand illustrations (images/illus-*.svg) replace the photo heroes: no copyright issues.
+- Real shop/workbench photos kept only in the homepage Gallery.
+- Branded social-share card (images/og-image.jpg).
+- Map coordinates added to business data (from Plus Code V6QH+3X).
+- _headers: temporary *.pages.dev addresses are blocked from Google (noindex).
+
+## Before going live (after buying the domain)
+1. Connect the domain in Cloudflare Pages > Custom domains.
+2. If the domain is NOT laptopmasterservice.com, replace it everywhere in the files.
+3. Add the website to Google Business Profile.
+4. Add the site in Google Search Console and submit sitemap.xml.
