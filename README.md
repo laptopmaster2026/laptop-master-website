@@ -1,4 +1,4 @@
-# LAPTOP MASTER - V2.8 (Illustrations, alignment, go-live prep)
+# LAPTOP MASTER - V2.8.1 (Real photos + logo)
 
 Static website for LAPTOP MASTER, Sholinganallur, Chennai. Hosted on GitHub + Cloudflare Pages.
 
@@ -53,3 +53,8 @@ Keep original large photos on your own computer, not in this repo.
 2. If the domain is NOT laptopmasterservice.com, replace it everywhere in the files.
 3. Add the website to Google Business Profile.
 4. Add the site in Google Search Console and submit sitemap.xml.
+
+## V2.8.1 updates
+- Real photos and your own LAPTOP MASTER logo and designed banner now used across the site.
+- Illustrations removed. Homepage gallery = 6 real workbench photos.
+- Header shows the logo image. New share card built from real photo + logo.

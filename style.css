@@ -2640,3 +2640,13 @@ button:focus-visible {
 .page-hero img[src$=".svg"] { box-shadow: none; border-radius: 0; }
 .hero-visual img[src$=".svg"] { background: transparent; box-shadow: none; border-radius: 0; }
 .faq-left .faq-grid { max-width: none; margin-left: 0; margin-right: 0; }
+
+/* V2.9 prep - real photos + logo */
+.brand-logo { height: 34px; width: auto; display: block; }
+@media (max-width: 600px) { .brand-logo { height: 28px; } }
+.gallery-grid { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 900px) { .gallery-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) { .gallery-grid { grid-template-columns: 1fr; } }
+.visit-grid { display: grid; grid-template-columns: 1fr 340px; gap: 44px; align-items: center; }
+.visit-grid img { width: 100%; height: auto; border-radius: 20px; box-shadow: var(--shadow); }
+@media (max-width: 800px) { .visit-grid { grid-template-columns: 1fr; } .visit-grid img { max-width: 320px; } }
