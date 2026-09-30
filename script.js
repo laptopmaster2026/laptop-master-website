@@ -1,6 +1,5 @@
-```javascript
 /* =========================================================
-   LAPTOP MASTER V2.4
+   LAPTOP MASTER V2.5.1
    Main JavaScript
    ========================================================= */
 
@@ -420,8 +419,7 @@ document.addEventListener("DOMContentLoaded", () => {
      ======================================================= */
 
   console.log(
-    "LAPTOP MASTER V2.4 loaded successfully."
+    "LAPTOP MASTER V2.5.1 loaded successfully."
   );
 
 });
-```
