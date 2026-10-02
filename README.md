@@ -1,4 +1,4 @@
-# LAPTOP MASTER - V3.0 (Image performance)
+# LAPTOP MASTER - V3.1 (Final launch version)
 
 Static website for LAPTOP MASTER, Sholinganallur, Chennai. Hosted on GitHub + Cloudflare Pages.
 
@@ -97,3 +97,16 @@ Keep original large photos on your own computer, not in this repo.
 - Total images folder about 1.6 MB.
 - Part B (new real photos) waits for the shot list: technician at work, shop interior wide, equipment, pickup/delivery photo, before/after.
 - Cache version ?v=3.0.0.
+
+## V3.1 updates (final testing and launch)
+- Automated checks passed: no broken internal links, anchors or images; one H1 per page; canonicals match sitemap; all JSON-LD valid; no console errors; no sideways scrolling on desktop (1366px) or phone (390px) widths; Quick Enquiry opens a correct WhatsApp message.
+- Fixed: Quick Enquiry checklist now one column.
+- Cache version ?v=3.1.0.
+
+## Launch checklist (manual, after deploy)
+- https://laptopmasterchennai.com and https://www.laptopmasterchennai.com both load; www redirects to non-www
+- Call, WhatsApp, email, Get Directions, FAQ and Quick Enquiry tested on a real phone
+- Favicon shows (hard refresh)
+- Search Console: sitemap Success, request indexing for 5 pages
+- Google Business Profile: website, hours, phone match the site
+- CRM behind Cloudflare Access

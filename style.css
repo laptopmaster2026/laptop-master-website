@@ -2702,3 +2702,7 @@ button:focus-visible {
   .enquiry-form { padding: 20px; }
   .enquiry-form .field-row { grid-template-columns: 1fr; }
 }
+
+/* V3.1 - enquiry checklist: single column */
+.enquiry-section .check-list { grid-template-columns: 1fr; margin: 18px 0 0; }
+.enquiry-section h2 { margin-bottom: 12px; }
