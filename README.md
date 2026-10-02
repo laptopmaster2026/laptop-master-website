@@ -1,4 +1,4 @@
-# LAPTOP MASTER - V2.8.2 (Logo size fix)
+# LAPTOP MASTER - V2.8.3 (Local SEO: service areas)
 
 Static website for LAPTOP MASTER, Sholinganallur, Chennai. Hosted on GitHub + Cloudflare Pages.
 
@@ -62,3 +62,10 @@ Keep original large photos on your own computer, not in this repo.
 ## V2.8.2 updates
 - Header logo size is now fixed inside the HTML, so it stays small even if the browser has an old style.css cached.
 - style.css and script.js links carry a version (?v=2.8.2) and _headers no longer caches them for a day.
+
+## V2.8.3 updates
+- Homepage Service Areas: natural local wording ("laptop service center in Sholinganallur on OMR"), plus an area note with a WhatsApp "check my area" button and a link to the pickup page.
+- New FAQ (page + FAQ schema): service near Perungudi, Thoraipakkam, Karapakkam, Navalur, Siruseri, Medavakkam and ECR.
+- LocalBusiness schema: areaServed now uses Place/City objects; telephone formatted as +91-6382022463.
+- "Service Areas" link added to the footer of all service pages.
+- sitemap.xml lastmod updated; CSS/JS cache version is now ?v=2.8.3.

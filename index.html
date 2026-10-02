@@ -38,7 +38,7 @@
 
   <!-- Styles -->
   <link rel="preload" as="image" href="images/hero-workbench.webp" fetchpriority="high">
-  <link rel="stylesheet" href="style.css?v=2.8.2">
+  <link rel="stylesheet" href="style.css?v=2.8.3">
 
   <!-- Favicon -->
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
@@ -55,7 +55,7 @@
     "name": "LAPTOP MASTER",
     "@id": "https://laptopmasterservice.com/#business",
     "url": "https://laptopmasterservice.com/",
-    "telephone": "+91 6382022463",
+    "telephone": "+91-6382022463",
     "logo": "https://laptopmasterservice.com/images/Logo.png",
     "image": "https://laptopmasterservice.com/images/og-image.jpg",
     "geo": {
@@ -94,16 +94,16 @@
     },
 
     "areaServed": [
-      "Sholinganallur",
-      "OMR",
-      "ECR",
-      "Perungudi",
-      "Thoraipakkam",
-      "Karapakkam",
-      "Navalur",
-      "Siruseri",
-      "Medavakkam",
-      "Chennai"
+      {"@type": "Place", "name": "Sholinganallur, Chennai"},
+      {"@type": "Place", "name": "OMR, Chennai"},
+      {"@type": "Place", "name": "ECR, Chennai"},
+      {"@type": "Place", "name": "Perungudi, Chennai"},
+      {"@type": "Place", "name": "Thoraipakkam, Chennai"},
+      {"@type": "Place", "name": "Karapakkam, Chennai"},
+      {"@type": "Place", "name": "Navalur, Chennai"},
+      {"@type": "Place", "name": "Siruseri, Chennai"},
+      {"@type": "Place", "name": "Medavakkam, Chennai"},
+      {"@type": "City", "name": "Chennai"}
     ],
 
     "serviceType": [
@@ -159,7 +159,8 @@
       {"@type":"Question","name":"Do you replace laptop screens and batteries?","acceptedAnswer":{"@type":"Answer","text":"Yes. Screen and battery replacement can be arranged based on the laptop model and compatible part availability."}},
       {"@type":"Question","name":"Is diagnosis free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Diagnosis and repair estimate are free at LAPTOP MASTER."}},
       {"@type":"Question","name":"Do you provide pickup and delivery?","acceptedAnswer":{"@type":"Answer","text":"Yes. Pickup and delivery is free within about 10–15 km of Sholinganallur, covering nearby OMR areas. Customers can contact LAPTOP MASTER with their location to confirm."}},
-      {"@type":"Question","name":"How can I contact LAPTOP MASTER?","acceptedAnswer":{"@type":"Answer","text":"Call 6382022463 or WhatsApp LAPTOP MASTER with your laptop model and problem. The service center is in Sholinganallur, Chennai 600119."}}
+      {"@type":"Question","name":"How can I contact LAPTOP MASTER?","acceptedAnswer":{"@type":"Answer","text":"Call 6382022463 or WhatsApp LAPTOP MASTER with your laptop model and problem. The service center is in Sholinganallur, Chennai 600119."}},
+      {"@type":"Question","name":"Do you offer laptop service near Perungudi, Thoraipakkam, Karapakkam, Navalur or Siruseri?","acceptedAnswer":{"@type":"Answer","text":"Yes. LAPTOP MASTER is in Sholinganallur and regularly serves customers around OMR, including Perungudi, Thoraipakkam, Karapakkam, Navalur, Siruseri, Medavakkam and ECR. Send your location on WhatsApp and we will confirm whether free pickup and delivery applies."}}
     ]
   }
   </script>
@@ -1177,7 +1178,7 @@
           </h2>
 
           <p>
-            LAPTOP MASTER is based in Sholinganallur and serves customers from nearby OMR and Chennai areas. Free pickup and delivery is available within 10–15 km of Sholinganallur.
+            LAPTOP MASTER is a laptop service center in Sholinganallur on OMR, serving customers from nearby OMR and Chennai areas. Free pickup and delivery is available within 10–15 km of Sholinganallur.
           </p>
 
         </div>
@@ -1193,6 +1194,14 @@
           <span>Medavakkam</span>
           <span>ECR</span>
           <span>Chennai</span>
+        </div>
+
+        <div class="area-note">
+          <p>Working or studying around OMR? Many customers come from the IT corridor between Perungudi and Siruseri. You can visit the shop for a free diagnosis, or message us your location to check free pickup and delivery. Customers from Medavakkam and ECR are welcome too.</p>
+          <div class="hero-actions">
+            <a class="btn btn-whatsapp" href="https://wa.me/916382022463?text=Hi%20LAPTOP%20MASTER%2C%20my%20area%20is%20_____.%20Is%20laptop%20pickup%20available%3F" target="_blank" rel="noopener">💬 Check My Area on WhatsApp</a>
+            <a class="btn btn-outline-dark" href="/laptop-pickup-delivery-omr/">Pickup &amp; Delivery Details</a>
+          </div>
         </div>
 
       </div>
@@ -1254,6 +1263,11 @@
           <details class="faq-item">
             <summary>Do you provide pickup and delivery?</summary>
             <p>Yes. Pickup and delivery is free within about 10–15 km of Sholinganallur, covering nearby OMR areas. Contact us with your location to confirm.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Do you offer laptop service near Perungudi, Thoraipakkam, Karapakkam, Navalur or Siruseri?</summary>
+            <p>Yes. LAPTOP MASTER is in Sholinganallur and regularly serves customers around OMR, including Perungudi, Thoraipakkam, Karapakkam, Navalur, Siruseri, Medavakkam and ECR. Send your location on WhatsApp and we will confirm whether free pickup and delivery applies.</p>
           </details>
 
           <details class="faq-item">
@@ -1533,7 +1547,7 @@
 
   <!-- JavaScript -->
 
-  <script src="script.js?v=2.8.2"></script>
+  <script src="script.js?v=2.8.3"></script>
 
 </body>
 

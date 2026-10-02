@@ -2650,3 +2650,12 @@ button:focus-visible {
 .visit-grid { display: grid; grid-template-columns: 1fr 340px; gap: 44px; align-items: center; }
 .visit-grid img { width: 100%; height: auto; border-radius: 20px; box-shadow: var(--shadow); }
 @media (max-width: 800px) { .visit-grid { grid-template-columns: 1fr; } .visit-grid img { max-width: 320px; } }
+
+/* V2.8.3 - service area note */
+.area-note { max-width: 760px; margin: 28px auto 0; text-align: center; }
+.area-note p { color: var(--muted, #5b6370); margin: 0 0 18px; }
+.area-note .hero-actions { justify-content: center; }
+@media (max-width: 600px) {
+  .area-note { text-align: left; }
+  .area-note .hero-actions { justify-content: flex-start; }
+}
