@@ -1,4 +1,4 @@
-# LAPTOP MASTER - V2.9 (Conversion & Trust)
+# LAPTOP MASTER - V3.0 (Image performance)
 
 Static website for LAPTOP MASTER, Sholinganallur, Chennai. Hosted on GitHub + Cloudflare Pages.
 
@@ -89,3 +89,11 @@ Keep original large photos on your own computer, not in this repo.
 - Quick Enquiry form (homepage #enquiry): brand, problem, area, pickup -> opens a ready WhatsApp message. Nothing is stored.
 - "Quick Enquiry" buttons added to the hero, final CTA and every service page.
 - Cache version ?v=2.9.0.
+
+## V3.0 updates (image optimisation, part A)
+- Audit: all site photos are already real shop/workbench photos in WebP; every image has alt text, width and height; only the hero is eager-loaded.
+- New half-size WebP versions (*-sm.webp) added; all photos use srcset/sizes so phones download about half the bytes.
+- Hero preload now uses imagesrcset so mobile does not fetch the large file.
+- Total images folder about 1.6 MB.
+- Part B (new real photos) waits for the shot list: technician at work, shop interior wide, equipment, pickup/delivery photo, before/after.
+- Cache version ?v=3.0.0.
