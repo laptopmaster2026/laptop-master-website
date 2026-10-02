@@ -423,3 +423,46 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
 });
+
+/* =========================================================
+   V2.9 - Quick enquiry -> WhatsApp (no data stored)
+   ========================================================= */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const form = document.querySelector("#enquiry-form");
+
+  if (!form) return;
+
+  form.addEventListener("submit", (event) => {
+
+    event.preventDefault();
+
+    const val = (id) => {
+      const el = form.querySelector(id);
+      return el ? el.value.trim() : "";
+    };
+
+    const lines = ["Hi LAPTOP MASTER, I need laptop service."];
+
+    const name = val("#enq-name");
+    const brand = val("#enq-brand");
+    const problem = val("#enq-problem");
+    const area = val("#enq-area");
+    const pickup = val("#enq-pickup");
+
+    if (name) lines.push("Name: " + name);
+    if (brand) lines.push("Laptop: " + brand);
+    if (problem) lines.push("Problem: " + problem);
+    if (area) lines.push("Area: " + area);
+    if (pickup) lines.push("Pickup: " + pickup);
+
+    const url =
+      "https://wa.me/916382022463?text=" +
+      encodeURIComponent(lines.join("\n"));
+
+    window.open(url, "_blank", "noopener");
+
+  });
+
+});

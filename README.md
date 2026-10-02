@@ -1,4 +1,4 @@
-# LAPTOP MASTER - V2.8.4 (Hours, email, domain, more areas)
+# LAPTOP MASTER - V2.9 (Conversion & Trust)
 
 Static website for LAPTOP MASTER, Sholinganallur, Chennai. Hosted on GitHub + Cloudflare Pages.
 
@@ -77,3 +77,15 @@ Keep original large photos on your own computer, not in this repo.
 - Domain changed everywhere to https://laptopmasterchennai.com (canonicals, Open Graph, schema, sitemap, robots).
 - CRM link: prepared as a commented-out "Staff login" link in the footer (not published). Protect the CRM with Cloudflare Access before enabling.
 - CSS/JS cache version ?v=2.8.4.
+
+## V2.8.5 updates
+- Small "Staff Login" link in the footer of every page, opening the CRM (https://laptop-crm.pages.dev/). It is nofollow, but it is NOT security by itself.
+- IMPORTANT: protect the CRM with Cloudflare Access (Zero Trust) so only admin emails can open it. See chat steps.
+- Cache version ?v=2.8.5.
+
+## V2.9 updates (Conversion & Trust)
+- New LAPTOP MASTER "LM" favicon set: favicon.ico, SVG, 16/32 PNG, apple-touch-icon, 192/512 app icons. site.webmanifest updated.
+- Trust bar under the hero strip: free diagnosis, you approve first, free pickup 10-15 km, real Google reviews.
+- Quick Enquiry form (homepage #enquiry): brand, problem, area, pickup -> opens a ready WhatsApp message. Nothing is stored.
+- "Quick Enquiry" buttons added to the hero, final CTA and every service page.
+- Cache version ?v=2.9.0.
