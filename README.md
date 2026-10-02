@@ -1,4 +1,4 @@
-# LAPTOP MASTER - V2.8.3 (Local SEO: service areas)
+# LAPTOP MASTER - V2.8.4 (Hours, email, domain, more areas)
 
 Static website for LAPTOP MASTER, Sholinganallur, Chennai. Hosted on GitHub + Cloudflare Pages.
 
@@ -50,7 +50,7 @@ Keep original large photos on your own computer, not in this repo.
 
 ## Before going live (after buying the domain)
 1. Connect the domain in Cloudflare Pages > Custom domains.
-2. If the domain is NOT laptopmasterservice.com, replace it everywhere in the files.
+2. Domain is laptopmasterchennai.com (already replaced everywhere in the files).
 3. Add the website to Google Business Profile.
 4. Add the site in Google Search Console and submit sitemap.xml.
 
@@ -69,3 +69,11 @@ Keep original large photos on your own computer, not in this repo.
 - LocalBusiness schema: areaServed now uses Place/City objects; telephone formatted as +91-6382022463.
 - "Service Areas" link added to the footer of all service pages.
 - sitemap.xml lastmod updated; CSS/JS cache version is now ?v=2.8.3.
+
+## V2.8.4 updates
+- Working hours: Monday-Saturday 9 AM-9 PM, Sunday 11 AM-6 PM (page text, FAQ, meta descriptions and schema).
+- Contact section: email added (info@laptopmasterchennai.com - create it in Cloudflare Email Routing), "LM" box replaced by the LAPTOP MASTER logo.
+- More service areas: ECR side added (Neelankarai, Injambakkam, Palavakkam, Akkarai, Uthandi, Muttukadu, Kanathur) on homepage, pickup page and schema.
+- Domain changed everywhere to https://laptopmasterchennai.com (canonicals, Open Graph, schema, sitemap, robots).
+- CRM link: prepared as a commented-out "Staff login" link in the footer (not published). Protect the CRM with Cloudflare Access before enabling.
+- CSS/JS cache version ?v=2.8.4.

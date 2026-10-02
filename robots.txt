@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://laptopmasterservice.com/sitemap.xml
+Sitemap: https://laptopmasterchennai.com/sitemap.xml
