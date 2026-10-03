@@ -457,6 +457,13 @@ document.addEventListener("DOMContentLoaded", () => {
     if (area) lines.push("Area: " + area);
     if (pickup) lines.push("Pickup: " + pickup);
 
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "generate_lead", {
+        event_category: "contact",
+        event_label: "Quick Enquiry"
+      });
+    }
+
     const url =
       "https://wa.me/916382022463?text=" +
       encodeURIComponent(lines.join("\n"));

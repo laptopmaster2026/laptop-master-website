@@ -1,4 +1,4 @@
-# LAPTOP MASTER - V3.1 (Final launch version)
+# LAPTOP MASTER - V3.1.1 (Google Analytics)
 
 Static website for LAPTOP MASTER, Sholinganallur, Chennai. Hosted on GitHub + Cloudflare Pages.
 
@@ -110,3 +110,9 @@ Keep original large photos on your own computer, not in this repo.
 - Search Console: sitemap Success, request indexing for 5 pages
 - Google Business Profile: website, hours, phone match the site
 - CRM behind Cloudflare Access
+
+## V3.1.1 updates
+- Google Analytics (GA4, G-FFRFSCLM7S) added to all pages. Existing whatsapp_click, phone_click and map_click events now report; Quick Enquiry sends generate_lead.
+- Footer note about analytics and enquiry data.
+- In GA: stream URL must be https://laptopmasterchennai.com; mark generate_lead, whatsapp_click, phone_click as key events.
+- Cache version ?v=3.1.1.
